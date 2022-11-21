@@ -48,7 +48,11 @@ namespace Exercise_3
                 Console.WriteLine("\nRecord in the list are:\n ");
                 Node curretNode;
                 curretNode = LAST.next;
-                
+                while (curretNode != LAST)
+                {
+                    Console.Write(curretNode.rollNumber + " " + curretNode.name + "\n");
+                    curretNode = curretNode.next;
+                }
             }
         }
     }
