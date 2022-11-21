@@ -39,6 +39,18 @@ namespace Exercise_3
             else
                 return false;
         }
+        public bool traverse()
+        {
+            if (listEmty())
+                Console.WriteLine("\nList is empty");
+            else
+            {
+                Console.WriteLine("\nRecord in the list are:\n ");
+                Node curretNode;
+                curretNode = LAST.next;
+                
+            }
+        }
     }
     
     
