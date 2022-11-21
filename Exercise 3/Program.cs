@@ -32,6 +32,13 @@ namespace Exercise_3
             else
                 return (false);
         }
+        public bool listEmty()
+        {
+            if (LAST == null)
+                return true;
+            else
+                return false;
+        }
     }
     
     
