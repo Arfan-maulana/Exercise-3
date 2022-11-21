@@ -27,6 +27,10 @@ namespace Exercise_3
                 if(rollNo == current.rollNumber)
                 return (true);
             }
+            if (rollNo == LAST.rollNumber)
+                return true;
+            else
+                return (false);
         }
     }
     
