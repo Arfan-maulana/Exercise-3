@@ -53,9 +53,20 @@ namespace Exercise_3
                     Console.Write(curretNode.rollNumber + " " + curretNode.name + "\n");
                     curretNode = curretNode.next;
                 }
+                Console.Write(LAST.rollNumber+ " "+ LAST.name + "\n");
             }
         }
+        public void firstNode()
+        {
+            if (listEmty())
+                Console.WriteLine("\nlist is empty");
+            else
+                Console.WriteLine("\n ]The first record in the list is:\n\n"+ LAST.next.rollNumber+" "+ LAST.next.name);
+
+        }
+        
     }
+
     
     
     
