@@ -10,8 +10,8 @@ namespace Exercise_3
     {
         // create nodes for circular nexted list
         public int rollNumber;
-        public string name; 
-        pub
+        public string name;
+        public Node next;
 
 
         static void Main(string[] args)
